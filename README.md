@@ -44,8 +44,8 @@ class movie(models.Model):
 
 class movieAdmin(admin.ModelAdmin):
     list_display = ('mid', 'name', 'cost', 'mtype', 'mlength')
-    ```
 
+```
 
 ## OUTPUT
 
